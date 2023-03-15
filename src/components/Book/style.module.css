@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    
+    gap: 30px;
+    margin: 20px;
+
+}
+.block_img{
+    /* border: 2px solid grey; */
+    contain: content;
+}
+.img{
+    width: 250px;
+    height: 330px;
+    border: 2px solid #969AA0;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.about_title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.32px;
+    color: #1B3764;
+}
+.about_price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFCA42;
+}
+.about_descr{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #969AA0;
+}
+.printed{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   align-items: center;
+    gap: 10px;
+}
+.printed_circle{
+    width: 16px;
+    height: 16px;
+    background: #FFCA42;
+    border-radius: 100px;
+}
+.printed_print{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1B3764;
+}

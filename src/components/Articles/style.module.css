@@ -1,0 +1,46 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 70px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.title_text{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B3764;
+}
+.underline{
+    width: 50px;
+    height: 3px;
+    background: #FFCA42;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    gap: 20px;
+}
+.image{
+    width: 600px;
+    height: 700px;
+    object-fit: contain;
+}
+.image img{
+    width: 100%;
+}

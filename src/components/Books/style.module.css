@@ -1,0 +1,39 @@
+.container {
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.underline{
+
+  
+    background: #FFCA42;
+    width: 50px;
+    height: 3px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.books{
+    display: flex;
+    flex-direction: row;
+    min-width: 250px;
+    height: 380px;
+    gap: 20px;
+}
+h1{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B3764;
+}

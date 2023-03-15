@@ -1,0 +1,150 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+   
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1B3764;
+}
+h2{
+    margin: 0;
+    font-weight: 100;
+    color: #1B3764;
+}
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-size: 20px; */
+    font-weight: 100;
+}
+.p{
+    width: 30px;
+    height: 1px;  
+    background-color: #f1c40f;
+}
+.block_books{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.block_books_item{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.book1_image, .book2_image{ 
+    width: 150px;
+    height: 220px;
+    border: 2px solid rgb(150, 150, 243);
+    contain: content;
+}
+.p_title{
+    padding-left: 5px;
+    color: #1B3764;
+    font-size: 15px;
+}
+.p_price{
+    font-size: 12px;
+    color: #f1c40f;
+}
+.p_info, .points_info{
+    color: rgb(150, 150, 243);
+    font-size: 10px;
+}
+.p_print{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    cursor: pointer;
+    
+}
+.book_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5px;
+}
+.p1{
+    /* padding-left: 1px */
+    width: 5px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background-color: #f1c40f;
+}
+.p2{
+    padding-left: 5px;
+    color: #1B3764;
+    font-size: 13px;
+}
+.book_info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.author{
+    
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+.author_img{
+    display: flex;
+    contain: content;
+    min-width: 300px;
+    height: 350px;
+}
+.points{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    /* padding:  0 20px; */
+}
+.points_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #f1c40f;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    
+    width: 250px;
+    height: 110px;
+    background-color: #1B3764;
+}
+.code_img{
+    width: 80px;
+    aspect-ratio: 1;
+}
+.contacts_info{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info_name{
+    font-size: 11px;
+    color: #f1c40f;
+}
+.info_contacts{
+    font-size: 9px ;
+    color: white;
+}
